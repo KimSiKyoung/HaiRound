@@ -1,0 +1,413 @@
+.App {
+  text-align: center;
+}
+
+.logobg {
+  background-color: #665f64;
+}
+
+.message {
+  position: absolute;
+  right: 80px;
+}
+
+.person {
+  position: absolute;
+  right: 130px;
+}
+
+#toggle {
+  color: #665f64;
+  font-size: 1em;
+}
+
+/* 검색창 */
+.search {
+  display: flex;
+  margin-top: 30px;
+  border: 1px solid #665f64;
+  border-radius: 20px;
+}
+
+.search_bar {
+  border: 0;
+  border-radius: 20px;
+}
+
+.btn {
+  background: none;
+  border: 0;
+  color: black;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background: none;
+  color: black;
+  border-radius: 20px;
+}
+
+/* 메인 컨텐츠 시작 */
+.contents {
+  margin: 0 20px;
+}
+
+/* 배너---------------- */
+.box1 {
+  height: 200px;
+  border: 1px solid #665f64;
+  margin-top: 20px;
+}
+
+/* 헤어스타일 종류---------------- */
+.box2 {
+  height: 100px;
+  border: 1px solid #665f64;
+}
+
+.box2>div {
+  margin-top: 10px;
+  height: 60px;
+  background: #665f64;
+}
+
+/* 가까운 미용실---------------- */
+.box3 {
+  height: 200px;
+  border: 1px solid #665f64;
+}
+
+/* 특가할인, 요즘 뜨는 스타일---------------- */
+.box4 {
+  height: 300px;
+  border: 1px solid #665f64;
+}
+
+.box4>p,
+.box5>p {
+  height: 50px;
+  border: 1px solid #665f64;
+  font-weight: bold;
+  text-align: left;
+  line-height: 50px;
+  font-size: 1.2em;
+}
+
+.box4 .box4_img,
+.box4 .box4_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box4 .box4_img>p {
+  flex-grow: 1;
+  height: 120px;
+  margin: 0 5px;
+  border: 1px solid #665f64;
+}
+
+.box4 .box4_content>p {
+  width: 140px;
+  flex-grow: 1;
+}
+
+.box5 {
+  height: 350px;
+  border: 1px solid #665f64;
+}
+
+.box5 .box5_imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.box5 .box5_img1,
+.box5 .box5_img2 {
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.box5 .box5_img1 p {
+  height: 250px;
+  border: 1px solid #665f64;
+}
+
+.box5 .box5_img2 p {
+  height: 117px;
+  border: 1px solid #665f64;
+}
+
+/* 푸터------------------ */
+.footer {
+  background: #c7c7c7;
+  height: 70px;
+  border: 1px solid #665f64;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.footer .link {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* 푸터 검색 부분(스와이퍼)---------------- */
+#swiper1 {
+  margin: 20px;
+}
+
+#slide1 {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: 1px solid #665f64;
+}
+
+#slide1:first-child {
+  background: #665f64;
+  color: #ffffff;
+}
+
+#slide1 span {
+  padding-right: 5px;
+}
+
+#swiper2,
+#swiper3 {
+  height: 300px;
+  padding: 20px;
+  padding-bottom: 70px;
+  border-top: 1px solid #665f64;
+  border-bottom: 1px solid #665f64;
+  box-sizing: border-box;
+}
+
+#swiper3 {
+  border-top: 0;
+}
+
+#swiper2 p,
+#swiper3 p {
+  margin-top: -13px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+#swiper2 p span,
+#swiper3 p span {
+  color: rgb(255, 0, 0);
+}
+
+#slide2,
+#slide3 {
+  border: 1px solid #665f64;
+  border-radius: 20px;
+}
+
+#slide2:nth-child(1) {
+  margin-right: 50px;
+}
+
+/* 푸터 M스타일---------------- */
+.Hslide {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  border-bottom: 1px solid #665f64;
+}
+
+.Hslide p {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.prev {
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.next {
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.ai {
+  height: 400px;
+  border-bottom: 1px solid #665f64;
+  padding-top: 150px;
+}
+
+#Aswiper1 {
+  margin: 20px;
+}
+
+.color {
+  height: 100px;
+  border-top: 1px solid #665f64;
+  border-bottom: 1px solid #665f64;
+}
+
+#Aslide1 {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: 1px solid #665f64;
+}
+
+#Aslide1:first-child {
+  background: #665f64;
+  color: #ffffff;
+}
+
+#Aslide2 {
+  height: 60px;
+  line-height: 60px;
+  border-radius: 20px;
+  border: 1px solid #665f64;
+}
+
+/* 푸터 체험단---------------- */
+.Eslide {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #665f64;
+  position: relative;
+  clear: both;
+}
+
+.Eslide p {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.Eprev {
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#Eswiper1 {
+  margin: 10px;
+}
+
+#Eslide1 {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #665f64;
+  border-radius: 20px;
+}
+
+#Eslide1:first-child {
+  background: #665f64;
+  color: #ffffff;
+}
+
+.Ebox {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.Ebox1 {
+  border-top: 1px solid #665f64;
+}
+
+.Ebox_img,
+.Ebox_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Ebox_img>p {
+  height: 150px;
+  flex-grow: 1;
+  margin: 0 10px;
+  border: 1px solid #665f64;
+  border-radius: 20px;
+}
+
+.Ebox_content>p {
+  width: 140px;
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+/* 푸터 예약----------------- */
+.Rwrap {
+  margin: 20px;
+}
+
+.top_img {
+  height: 300px;
+  border: 1px solid #665f64;
+}
+
+.mid {
+  margin-top: 20px;
+}
+
+.mid>h3,
+.mid>p {
+  text-align: left;
+}
+
+.mid_icon {
+  text-align: left;
+}
+
+.mid_icon>span {
+  display: block;
+  margin-top: 10px;
+}
+
+.mid_icon>span:nth-child(3),
+.mid_icon>span:nth-child(4) {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.CM {
+  display: flex;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.CMbox1,
+.CMbox2 {
+  height: 70px;
+  border: 1px solid black;
+  line-height: 70px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.CMbox2 {
+  margin-right: 0;
+}
+
+.m-box>span {
+  text-align: left;
+}
+
+.Rbox {
+  height: 70px;
+  border: 1px solid black;
+  line-height: 70px;
+  margin-top: 10px;
+}
